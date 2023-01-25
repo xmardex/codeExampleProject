@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b7cbefdcaaaae649889249789e60469, type: 3}
+  m_Name: Burst
+  m_EditorClassIdentifier: 
+  spellShapeType: 4
+  spellShapeMode: 2
+  shapePrefab: {fileID: 7216487261421436847, guid: a64e240b7218c014a86018e97ec6f16a,
+    type: 3}
+  statsDamage:
+    pierce: 0.2
+    force: 0.5
+    aerosol: 0.3
+  statsResist:
+    deflection: 0.7
+    toughness: 0.4
+    push: 0.8

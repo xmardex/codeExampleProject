@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b7cbefdcaaaae649889249789e60469, type: 3}
+  m_Name: Barrage
+  m_EditorClassIdentifier: 
+  spellShapeType: 2
+  spellShapeMode: 1
+  shapePrefab: {fileID: 8127572294254712011, guid: 0b3e416c2a041c547b0a859bdb3afdba,
+    type: 3}
+  statsDamage:
+    pierce: 0.7
+    force: 0.5
+    aerosol: 0.5
+  statsResist:
+    deflection: 0.3
+    toughness: 0.3
+    push: 0.4

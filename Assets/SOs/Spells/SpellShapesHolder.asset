@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 895029f5e282b1d4b93af34e4177306b, type: 3}
+  m_Name: SpellShapesHolder
+  m_EditorClassIdentifier: 
+  allSpellShapes:
+  - {fileID: 11400000, guid: 084f2ee086e8e604a86dd1d29346cd85, type: 2}
+  - {fileID: 11400000, guid: ac987836505ed104a955c9bfc1ec7130, type: 2}
+  - {fileID: 11400000, guid: eec0e915f07797542ba1d2bfebf2eee8, type: 2}
+  - {fileID: 11400000, guid: 40fedef5263136441979fd3d1a3077ca, type: 2}
+  - {fileID: 11400000, guid: d1b230d73a0510a40b55fd997de0503c, type: 2}
+  - {fileID: 11400000, guid: ac1b65dc48e5874479cb78623e479f92, type: 2}

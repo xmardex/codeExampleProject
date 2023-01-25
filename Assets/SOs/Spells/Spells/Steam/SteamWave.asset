@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e13f08c7ae70734fbd4dc5d8bb23c2b, type: 3}
+  m_Name: SteamWave
+  m_EditorClassIdentifier: 
+  spellName: Steam Wave
+  spellSprite: {fileID: 0}
+  particlesFX: {fileID: 0}
+  isCombo: 1
+  element_1: 1
+  element_2: 4
+  elementComboType: 9
+  spellShapeType: 3
+  elementCombo: {fileID: 11400000, guid: 1d071b3b4901d4c49947e516570ddb8d, type: 2}
+  spellShape: {fileID: 11400000, guid: ac1b65dc48e5874479cb78623e479f92, type: 2}
+  elementComboHolderSO: {fileID: 11400000, guid: 6c392a3a267ee9445a6e18e6dd403fab,
+    type: 2}
+  spellShapeHolderSO: {fileID: 11400000, guid: 9ea973ab46398ee469462f175ea0b1da, type: 2}
+  buffEffects:
+  - buffName: Lose 5 mana regen for 3 rounds
+    buffSprite: {fileID: 0}
+    buffCondition:
+      target: 2
+      operation: 2
+      stat: 9
+      value: 5
+      roundDuration: 3

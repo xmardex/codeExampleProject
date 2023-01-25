@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7246abb4bb2e524490eb02cf454112a, type: 3}
+  m_Name: talismanAstro_item
+  m_EditorClassIdentifier: 
+  item:
+    id: astro_talisman
+    name: Astro Talisman
+    itemType: 3
+    sprite: {fileID: 21300000, guid: 0d1148a8afcbd9b4ca01181d6f0b9d19, type: 3}
+    prefab:
+      prefab: {fileID: 529948991447544819, guid: 89bbacc0aa449b942bee704022402314,
+        type: 3}
+      posOffset: {x: 0.015, y: 0.08, z: 0.1205}
+      rotOffset: {x: 0, y: 0, z: 0}
+      newScale: {x: 0.1, y: 0.1, z: 0.04}
+    playerStatModifier:
+      currentHealth: 0
+      maxHealth: 0
+      currentMana: 0
+      maxMana: 0
+      manaReplenishRate: 0
+      fire:
+        chargeRate: 0
+        windDownRate: 0
+      earth:
+        chargeRate: 0
+        windDownRate: 0
+      water:
+        chargeRate: 0
+        windDownRate: 0
+      air:
+        chargeRate: 0
+        windDownRate: 0
+      statsDamage:
+        pierce: 0
+        force: 0
+        aerosol: 0
+      statsResist:
+        deflection: 0
+        toughness: 0
+        push: 0
+    enemyStatModifier:
+      currentHealth: 0
+      maxHealth: 0
+      currentMana: 0
+      maxMana: 0
+      manaReplenishRate: 0
+      fire:
+        chargeRate: 0
+        windDownRate: 0
+      earth:
+        chargeRate: 0
+        windDownRate: 0
+      water:
+        chargeRate: 0
+        windDownRate: 0
+      air:
+        chargeRate: 0
+        windDownRate: 0
+      statsDamage:
+        pierce: 0
+        force: 0
+        aerosol: 0
+      statsResist:
+        deflection: 0
+        toughness: 0
+        push: 0

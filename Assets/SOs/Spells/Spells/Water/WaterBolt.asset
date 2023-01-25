@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e13f08c7ae70734fbd4dc5d8bb23c2b, type: 3}
+  m_Name: WaterBolt
+  m_EditorClassIdentifier: 
+  spellName: Water Bolt
+  spellSprite: {fileID: 0}
+  particlesFX: {fileID: 0}
+  isCombo: 0
+  element_1: 4
+  element_2: 0
+  elementComboType: 4
+  spellShapeType: 1
+  elementCombo: {fileID: 11400000, guid: 2a424ac14dde5bd49a505fa345abbf70, type: 2}
+  spellShape: {fileID: 11400000, guid: eec0e915f07797542ba1d2bfebf2eee8, type: 2}
+  elementComboHolderSO: {fileID: 11400000, guid: 6c392a3a267ee9445a6e18e6dd403fab,
+    type: 2}
+  spellShapeHolderSO: {fileID: 11400000, guid: 9ea973ab46398ee469462f175ea0b1da, type: 2}
+  buffEffects: []

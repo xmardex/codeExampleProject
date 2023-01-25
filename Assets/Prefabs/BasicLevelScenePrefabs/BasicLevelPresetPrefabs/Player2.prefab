@@ -1,0 +1,305 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1597776044285998600
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8748221379945287537}
+  - component: {fileID: 5603254304915510876}
+  - component: {fileID: 1759994223162880848}
+  - component: {fileID: 5520339598052492242}
+  - component: {fileID: 7123083513152707576}
+  - component: {fileID: 2562881026470981688}
+  - component: {fileID: 3455135404636424043}
+  - component: {fileID: 5881541910988120407}
+  - component: {fileID: 5041380117525342448}
+  m_Layer: 0
+  m_Name: Player2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8748221379945287537
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1597776044285998600}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 3, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!114 &5603254304915510876
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1597776044285998600}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dca8b2dde2c01184baed1a147d36705b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  opponentPlayer: {fileID: 0}
+  playerSettingsSO: {fileID: 11400000, guid: 3464967fb79bde3488f3587e29a58fd6, type: 2}
+  customizedData: {fileID: 11400000, guid: f020e20ae2dad834692f14310d2d4a58, type: 2}
+  rigRoot: {fileID: 8748221379945287537}
+  playerAvatarImage: {fileID: 0}
+  isAIControlled: 0
+  isAlive: 0
+--- !u!114 &1759994223162880848
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1597776044285998600}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2c485931f9ebe44f831be73820755f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  baseAnimatorController: {fileID: 9100000, guid: d3a140e74f25116418a056efb8b4a629,
+    type: 2}
+--- !u!114 &5520339598052492242
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1597776044285998600}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80ff613b7b9454e4fbde3ad81eb8fcc7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  baseStats: {fileID: 11400000, guid: 7ba9415b196ade24db5ed846deeaddf1, type: 2}
+  currentStats:
+    currentHealth: 0
+    maxHealth: 0
+    currentMana: 0
+    maxMana: 0
+    manaReplenishRate: 0
+    fire:
+      chargeRate: 0
+      windDownRate: 0
+    earth:
+      chargeRate: 0
+      windDownRate: 0
+    water:
+      chargeRate: 0
+      windDownRate: 0
+    air:
+      chargeRate: 0
+      windDownRate: 0
+    statsDamage:
+      pierce: 0
+      force: 0
+      aerosol: 0
+    statsResist:
+      deflection: 0
+      toughness: 0
+      push: 0
+  playerUIReferences:
+    healthBar: {fileID: 0}
+    manaBar: {fileID: 0}
+--- !u!114 &7123083513152707576
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1597776044285998600}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Actions: {fileID: -944628639613478452, guid: d5c850267cb884549813302f8092d627,
+    type: 3}
+  m_NotificationBehavior: 3
+  m_UIInputModule: {fileID: 0}
+  m_DeviceLostEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_DeviceRegainedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ControlsChangedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ActionEvents:
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: f7a4f13a-8dc9-4186-bed6-4e5a293aee87
+    m_ActionName: Player1/Air[/Keyboard/w]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 0c4bdcd5-45e5-44d8-96f0-f84e01b0cb74
+    m_ActionName: Player1/Earth[/Keyboard/s]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 4578e5a2-d332-4f3a-a92d-2f80948b6e71
+    m_ActionName: Player1/Water[/Keyboard/a]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: c493b23f-0a83-438c-b8a3-9b1156970ec3
+    m_ActionName: Player1/Fire[/Keyboard/d]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 31ba346d-092b-4cac-b450-6412a01df45d
+    m_ActionName: Player1/SelectOffensiveShape[/Keyboard/1]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: f8dd06f9-ebbb-45ca-bb6f-89ad3fa0183b
+    m_ActionName: Player1/SelectDefensiveShape[/Keyboard/2]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 678a0de5-97f0-4fb8-b9b0-8561ea2c1bb5
+    m_ActionName: Player1/BoltWave[/Keyboard/1]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: c816065d-ab30-473c-bdec-e55705eb7496
+    m_ActionName: Player1/BarrageBurst[/Keyboard/2]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: c5db00a6-2371-4c6a-9cda-981467452258
+    m_ActionName: Player1/BallCloud[/Keyboard/3]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: d964d6c5-65db-49d2-8643-8c7b99d4baf0
+    m_ActionName: Player2/Air[/Keyboard/i]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: a4666e0e-41d9-4f5f-9953-fb2b9f3f39f4
+    m_ActionName: Player2/Earth[/Keyboard/k]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 9c8efa87-5684-40bb-ac1b-fccb86845394
+    m_ActionName: Player2/Water[/Keyboard/l]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 06e08312-fcc0-4f80-bf4c-36245f062483
+    m_ActionName: Player2/Fire[/Keyboard/j]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 17a2b0c4-2ab1-4e60-a7d1-0776efbec063
+    m_ActionName: Player2/SelectOffensiveShape[/Keyboard/7]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: c7333cc5-fdef-4f46-8528-2e85b9888b96
+    m_ActionName: Player2/SelectDefensiveShape[/Keyboard/8]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 24177a48-f262-427c-ab0b-3540e257ed5d
+    m_ActionName: Player2/BoltWave[/Keyboard/7]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 9d24c687-f78b-455d-847b-eeb94a33cf3b
+    m_ActionName: Player2/BarrageBurst[/Keyboard/8]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 96bcab38-b013-45ca-97bf-d91f19874d7f
+    m_ActionName: Player2/BallCloud[/Keyboard/9]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: eeae9039-a94a-4523-ab32-2e75d657f0ad
+    m_ActionName: Player1/Pause[/Keyboard/p]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 607ef9e2-bfcc-4f4a-9b22-a50c0e282b32
+    m_ActionName: Player2/Pause[/Keyboard/p]
+  m_NeverAutoSwitchControlSchemes: 0
+  m_DefaultControlScheme: 
+  m_DefaultActionMap: Player
+  m_SplitScreenIndex: -1
+  m_Camera: {fileID: 0}
+--- !u!114 &2562881026470981688
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1597776044285998600}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e4db0a2bc6855e40a8a8b2d8dbcf21a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  handVFX: {fileID: 5496437224574315094, guid: c72281df814b49c42a593c655fdef06f, type: 3}
+  spellRootOffset: {x: 1, y: 1, z: 0}
+--- !u!114 &3455135404636424043
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1597776044285998600}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc635773034471941b98de8a7204d722, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerManager: {fileID: 0}
+--- !u!114 &5881541910988120407
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1597776044285998600}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3cc6fe02be263fd4ba46792ece413d16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  elementComboHolderSO: {fileID: 11400000, guid: 6c392a3a267ee9445a6e18e6dd403fab,
+    type: 2}
+  spellShapeHolderSO: {fileID: 11400000, guid: 9ea973ab46398ee469462f175ea0b1da, type: 2}
+  spellsHolderSO: {fileID: 11400000, guid: 78c475098e8bf424b9c6cdeca553dba1, type: 2}
+  controlSchemeName: Keyboard
+  inputTiming:
+    timeToStartManaChanneling: 0
+    timeToResetFormSelectionIfThereIsNothingSelected: 0
+  currentSpellData:
+    element_1:
+      isHolded: 0
+      elementRawType: 0
+    element_2:
+      isHolded: 0
+      elementRawType: 0
+    spellOppositeShapeType: 0
+    spellShapeModeType: 0
+    elementComboType: 0
+    spellShapeType: 0
+    isModeChosen: 0
+    isShapeChosen: 0
+  manaChanneled: 0
+  castedSpellData:
+    spell: {fileID: 0}
+    manaChanneled: 0
+  isInputAllowed: 0
+--- !u!114 &5041380117525342448
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1597776044285998600}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b987988b9946cd4e909c99f3b089e25, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentSpell: {fileID: 0}

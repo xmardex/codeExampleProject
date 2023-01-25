@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7246abb4bb2e524490eb02cf454112a, type: 3}
+  m_Name: hatCowbody_item
+  m_EditorClassIdentifier: 
+  item:
+    id: cowboy_hat
+    name: Cowboy Hat
+    itemType: 1
+    sprite: {fileID: 21300000, guid: df15357e2fbdb5b4fa0ed2619d1a2741, type: 3}
+    prefab:
+      prefab: {fileID: 0}
+      posOffset: {x: 0, y: 0, z: 0}
+      rotOffset: {x: 0, y: 0, z: 0}
+      newScale: {x: 1, y: 1, z: 1}
+    playerStatModifier:
+      currentHealth: 0
+      maxHealth: 0
+      currentMana: 0
+      maxMana: 0
+      manaReplenishRate: 0
+      fire:
+        chargeRate: 0
+        windDownRate: 0
+      earth:
+        chargeRate: 0
+        windDownRate: 0
+      water:
+        chargeRate: 0
+        windDownRate: 0
+      air:
+        chargeRate: 0
+        windDownRate: 0
+      statsDamage:
+        pierce: 0
+        force: 0
+        aerosol: 0
+      statsResist:
+        deflection: 0
+        toughness: 0
+        push: 0
+    enemyStatModifier:
+      currentHealth: 0
+      maxHealth: 0
+      currentMana: 0
+      maxMana: 0
+      manaReplenishRate: 0
+      fire:
+        chargeRate: 0
+        windDownRate: 0
+      earth:
+        chargeRate: 0
+        windDownRate: 0
+      water:
+        chargeRate: 0
+        windDownRate: 0
+      air:
+        chargeRate: 0
+        windDownRate: 0
+      statsDamage:
+        pierce: 0
+        force: 0
+        aerosol: 0
+      statsResist:
+        deflection: 0
+        toughness: 0
+        push: 0

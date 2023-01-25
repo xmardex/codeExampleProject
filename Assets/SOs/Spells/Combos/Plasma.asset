@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 693d7ac9d324bf744974f3f062bdc8da, type: 3}
+  m_Name: Plasma
+  m_EditorClassIdentifier: 
+  elementComboType: 5
+  comboMaterial: {fileID: 2100000, guid: da7a65e53cfa4e444b028d4b54e8f8b5, type: 2}
+  statsDamage:
+    pierce: 0.9
+    force: 0.4
+    aerosol: 0.5
+  statsResist:
+    deflection: 0.3
+    toughness: 0.2
+    push: 0.5

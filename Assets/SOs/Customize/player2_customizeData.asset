@@ -1,0 +1,328 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4acda369979e9b346a07faf8c53f42d2, type: 3}
+  m_Name: player2_customizeData
+  m_EditorClassIdentifier: 
+  playerNum: 2
+  isSet: 0
+  playerSkin: {fileID: 0}
+  equippedItemsPreset:
+    face:
+      item:
+        id: 
+        name: 
+        itemType: 0
+        sprite: {fileID: 0}
+        prefab: {fileID: 0}
+        playerStatModifier:
+          currentHealth: 0
+          maxHealth: 0
+          currentMana: 0
+          maxMana: 0
+          manaReplenishRate: 0
+          fire:
+            chargeRate: 0
+            windDownRate: 0
+          earth:
+            chargeRate: 0
+            windDownRate: 0
+          water:
+            chargeRate: 0
+            windDownRate: 0
+          air:
+            chargeRate: 0
+            windDownRate: 0
+          bonuses:
+            pierce: 0
+            force: 0
+            aerosol: 0
+          resists:
+            deflection: 0
+            toughness: 0
+            push: 0
+        enemyStatModifier:
+          currentHealth: 0
+          maxHealth: 0
+          currentMana: 0
+          maxMana: 0
+          manaReplenishRate: 0
+          fire:
+            chargeRate: 0
+            windDownRate: 0
+          earth:
+            chargeRate: 0
+            windDownRate: 0
+          water:
+            chargeRate: 0
+            windDownRate: 0
+          air:
+            chargeRate: 0
+            windDownRate: 0
+          bonuses:
+            pierce: 0
+            force: 0
+            aerosol: 0
+          resists:
+            deflection: 0
+            toughness: 0
+            push: 0
+        canBeSelected_p1: 0
+        canBeSelected_p2: 0
+      type: 1
+    ring1:
+      item:
+        id: 
+        name: 
+        itemType: 0
+        sprite: {fileID: 0}
+        prefab: {fileID: 0}
+        playerStatModifier:
+          currentHealth: 0
+          maxHealth: 0
+          currentMana: 0
+          maxMana: 0
+          manaReplenishRate: 0
+          fire:
+            chargeRate: 0
+            windDownRate: 0
+          earth:
+            chargeRate: 0
+            windDownRate: 0
+          water:
+            chargeRate: 0
+            windDownRate: 0
+          air:
+            chargeRate: 0
+            windDownRate: 0
+          bonuses:
+            pierce: 0
+            force: 0
+            aerosol: 0
+          resists:
+            deflection: 0
+            toughness: 0
+            push: 0
+        enemyStatModifier:
+          currentHealth: 0
+          maxHealth: 0
+          currentMana: 0
+          maxMana: 0
+          manaReplenishRate: 0
+          fire:
+            chargeRate: 0
+            windDownRate: 0
+          earth:
+            chargeRate: 0
+            windDownRate: 0
+          water:
+            chargeRate: 0
+            windDownRate: 0
+          air:
+            chargeRate: 0
+            windDownRate: 0
+          bonuses:
+            pierce: 0
+            force: 0
+            aerosol: 0
+          resists:
+            deflection: 0
+            toughness: 0
+            push: 0
+        canBeSelected_p1: 0
+        canBeSelected_p2: 0
+      type: 2
+    ring2:
+      item:
+        id: 
+        name: 
+        itemType: 0
+        sprite: {fileID: 0}
+        prefab: {fileID: 0}
+        playerStatModifier:
+          currentHealth: 0
+          maxHealth: 0
+          currentMana: 0
+          maxMana: 0
+          manaReplenishRate: 0
+          fire:
+            chargeRate: 0
+            windDownRate: 0
+          earth:
+            chargeRate: 0
+            windDownRate: 0
+          water:
+            chargeRate: 0
+            windDownRate: 0
+          air:
+            chargeRate: 0
+            windDownRate: 0
+          bonuses:
+            pierce: 0
+            force: 0
+            aerosol: 0
+          resists:
+            deflection: 0
+            toughness: 0
+            push: 0
+        enemyStatModifier:
+          currentHealth: 0
+          maxHealth: 0
+          currentMana: 0
+          maxMana: 0
+          manaReplenishRate: 0
+          fire:
+            chargeRate: 0
+            windDownRate: 0
+          earth:
+            chargeRate: 0
+            windDownRate: 0
+          water:
+            chargeRate: 0
+            windDownRate: 0
+          air:
+            chargeRate: 0
+            windDownRate: 0
+          bonuses:
+            pierce: 0
+            force: 0
+            aerosol: 0
+          resists:
+            deflection: 0
+            toughness: 0
+            push: 0
+        canBeSelected_p1: 0
+        canBeSelected_p2: 0
+      type: 2
+    talisman:
+      item:
+        id: 
+        name: 
+        itemType: 0
+        sprite: {fileID: 0}
+        prefab: {fileID: 0}
+        playerStatModifier:
+          currentHealth: 0
+          maxHealth: 0
+          currentMana: 0
+          maxMana: 0
+          manaReplenishRate: 0
+          fire:
+            chargeRate: 0
+            windDownRate: 0
+          earth:
+            chargeRate: 0
+            windDownRate: 0
+          water:
+            chargeRate: 0
+            windDownRate: 0
+          air:
+            chargeRate: 0
+            windDownRate: 0
+          bonuses:
+            pierce: 0
+            force: 0
+            aerosol: 0
+          resists:
+            deflection: 0
+            toughness: 0
+            push: 0
+        enemyStatModifier:
+          currentHealth: 0
+          maxHealth: 0
+          currentMana: 0
+          maxMana: 0
+          manaReplenishRate: 0
+          fire:
+            chargeRate: 0
+            windDownRate: 0
+          earth:
+            chargeRate: 0
+            windDownRate: 0
+          water:
+            chargeRate: 0
+            windDownRate: 0
+          air:
+            chargeRate: 0
+            windDownRate: 0
+          bonuses:
+            pierce: 0
+            force: 0
+            aerosol: 0
+          resists:
+            deflection: 0
+            toughness: 0
+            push: 0
+        canBeSelected_p1: 0
+        canBeSelected_p2: 0
+      type: 3
+    staff:
+      item:
+        id: 
+        name: 
+        itemType: 0
+        sprite: {fileID: 0}
+        prefab: {fileID: 0}
+        playerStatModifier:
+          currentHealth: 0
+          maxHealth: 0
+          currentMana: 0
+          maxMana: 0
+          manaReplenishRate: 0
+          fire:
+            chargeRate: 0
+            windDownRate: 0
+          earth:
+            chargeRate: 0
+            windDownRate: 0
+          water:
+            chargeRate: 0
+            windDownRate: 0
+          air:
+            chargeRate: 0
+            windDownRate: 0
+          bonuses:
+            pierce: 0
+            force: 0
+            aerosol: 0
+          resists:
+            deflection: 0
+            toughness: 0
+            push: 0
+        enemyStatModifier:
+          currentHealth: 0
+          maxHealth: 0
+          currentMana: 0
+          maxMana: 0
+          manaReplenishRate: 0
+          fire:
+            chargeRate: 0
+            windDownRate: 0
+          earth:
+            chargeRate: 0
+            windDownRate: 0
+          water:
+            chargeRate: 0
+            windDownRate: 0
+          air:
+            chargeRate: 0
+            windDownRate: 0
+          bonuses:
+            pierce: 0
+            force: 0
+            aerosol: 0
+          resists:
+            deflection: 0
+            toughness: 0
+            push: 0
+        canBeSelected_p1: 0
+        canBeSelected_p2: 0
+      type: 4

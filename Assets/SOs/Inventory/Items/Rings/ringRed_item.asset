@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7246abb4bb2e524490eb02cf454112a, type: 3}
+  m_Name: ringRed_item
+  m_EditorClassIdentifier: 
+  item:
+    id: red_ring
+    name: Red Ring
+    itemType: 2
+    sprite: {fileID: 21300000, guid: 1dd9ceab1df110144ab39900f7d4bca9, type: 3}
+    prefab:
+      prefab: {fileID: 7427816423197887442, guid: 601ddf274570b0b4aacafa4387f3bd7e,
+        type: 3}
+      posOffset: {x: -0.015, y: 0.1425, z: 0.0053}
+      rotOffset: {x: 13.000003, y: 45, z: 9.000003}
+      newScale: {x: 0.04, y: 0.02, z: 0.04}
+    playerStatModifier:
+      currentHealth: 0
+      maxHealth: 0
+      currentMana: 0
+      maxMana: 0
+      manaReplenishRate: 0
+      fire:
+        chargeRate: 0
+        windDownRate: 0
+      earth:
+        chargeRate: 0
+        windDownRate: 0
+      water:
+        chargeRate: 0
+        windDownRate: 0
+      air:
+        chargeRate: 0
+        windDownRate: 0
+      statsDamage:
+        pierce: 0
+        force: 0
+        aerosol: 0
+      statsResist:
+        deflection: 0
+        toughness: 0
+        push: 0
+    enemyStatModifier:
+      currentHealth: 0
+      maxHealth: 0
+      currentMana: 0
+      maxMana: 0
+      manaReplenishRate: 0
+      fire:
+        chargeRate: 0
+        windDownRate: 0
+      earth:
+        chargeRate: 0
+        windDownRate: 0
+      water:
+        chargeRate: 0
+        windDownRate: 0
+      air:
+        chargeRate: 0
+        windDownRate: 0
+      statsDamage:
+        pierce: 0
+        force: 0
+        aerosol: 0
+      statsResist:
+        deflection: 0
+        toughness: 0
+        push: 0

@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce87b229905427040b0b325c7d2abc79, type: 3}
+  m_Name: Jungle_statsModfiers
+  m_EditorClassIdentifier: 
+  stats:
+    currentHealth: 0
+    maxHealth: 10
+    currentMana: 0
+    maxMana: 0
+    manaReplenishRate: 0
+    fire:
+      chargeRate: 0
+      windDownRate: 0
+    earth:
+      chargeRate: 0
+      windDownRate: 0
+    water:
+      chargeRate: 0
+      windDownRate: 0
+    air:
+      chargeRate: 0
+      windDownRate: 0
+    statsDamage:
+      pierce: 0
+      force: 0
+      aerosol: 0
+    statsResist:
+      deflection: 0
+      toughness: 0
+      push: 0

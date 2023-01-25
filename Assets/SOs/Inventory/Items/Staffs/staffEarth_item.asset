@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7246abb4bb2e524490eb02cf454112a, type: 3}
+  m_Name: staffEarth_item
+  m_EditorClassIdentifier: 
+  item:
+    id: earth_staff
+    name: Earth Staff
+    itemType: 4
+    sprite: {fileID: 21300000, guid: f6df7dcebba96c841af7b66f5708e5ed, type: 3}
+    prefab:
+      prefab: {fileID: 3941526403669976898, guid: de1af4a70cb82d2478c39bcb8ece0407,
+        type: 3}
+      posOffset: {x: -0.049253516, y: 0.13, z: 0.01}
+      rotOffset: {x: 306.11646, y: 117.753845, z: 336.22305}
+      newScale: {x: 1, y: 1, z: 1}
+    playerStatModifier:
+      currentHealth: 0
+      maxHealth: 0
+      currentMana: 0
+      maxMana: 0
+      manaReplenishRate: 0
+      fire:
+        chargeRate: 0
+        windDownRate: 0
+      earth:
+        chargeRate: 0
+        windDownRate: 0
+      water:
+        chargeRate: 0
+        windDownRate: 0
+      air:
+        chargeRate: 0
+        windDownRate: 0
+      statsDamage:
+        pierce: 0
+        force: 0
+        aerosol: 0
+      statsResist:
+        deflection: 0
+        toughness: 0
+        push: 0
+    enemyStatModifier:
+      currentHealth: 0
+      maxHealth: 0
+      currentMana: 0
+      maxMana: 0
+      manaReplenishRate: 0
+      fire:
+        chargeRate: 0
+        windDownRate: 0
+      earth:
+        chargeRate: -1
+        windDownRate: -0.5
+      water:
+        chargeRate: 0
+        windDownRate: 0
+      air:
+        chargeRate: 0
+        windDownRate: 0
+      statsDamage:
+        pierce: 0
+        force: 0
+        aerosol: 0
+      statsResist:
+        deflection: 0
+        toughness: 0
+        push: 0
