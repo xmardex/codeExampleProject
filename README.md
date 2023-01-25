@@ -1,2 +1,2 @@
-# Arcane-Duellists-v2
-Working with Vitaly on Arcane Duellists game
+duel of magicians pc game
+
